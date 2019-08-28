@@ -1,8 +1,18 @@
 # Notas:
 
-Este es un pequeño servidor de express listo para ejecutarse y servir la carpeta public en la web.
+Aplicación en node usando sockets para gestionar una cola de tickets.
 
-Recuerden que deben de reconstruir los módulos de node con el comando
+Las pantallas que contiene son:
+
+## WEBSITE
+| Pantalla | Descripcion |
+| --- | --- |
+| Crear Tickets | Creacion de los tickets para atender |
+| Ingresar | El escritorio desde donde se atenderá el ticket |
+| Pantalla publica | Visualización de los ultimos 4 tickets atendidos |
+
+
+Inicializar proyecto:
 
 ```
 npm install
